@@ -8,6 +8,7 @@
       "https://images.unsplash.com/photo-1502673530728-f79b4cab31b1",
       "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
     ],
+    "maxGuests": 1,
     "location": { "city": "Paris", "country": "France", "lat": 48.8566, "lng": 2.3522 }
   },
   {
@@ -18,6 +19,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
     ],
+    "maxGuests": 2,
     "location": { "city": "Paris", "country": "France", "lat": 48.8867, "lng": 2.3431 }
   },
   {
@@ -28,6 +30,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1505691723518-36a5ac3b2a96"
     ],
+    "maxGuests": 3,
     "location": { "city": "Paris", "country": "France", "lat": 48.8674, "lng": 2.3630 }
   },
   {
@@ -38,6 +41,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"
     ],
+    "maxGuests": 4,
     "location": { "city": "Aix-en-Provence", "country": "France", "lat": 43.5297, "lng": 5.4474 }
   },
   {
@@ -48,6 +52,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
     ],
+    "maxGuests": 5,
     "location": { "city": "Nice", "country": "France", "lat": 43.7102, "lng": 7.2620 }
   },
   {
@@ -58,6 +63,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
     ],
+    "maxGuests": 6,
     "location": { "city": "Nice", "country": "France", "lat": 43.7034, "lng": 7.2663 }
   },
   {
@@ -68,6 +74,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
     ],
+    "maxGuests": 7,
     "location": { "city": "Chamonix", "country": "France", "lat": 45.9237, "lng": 6.8694 }
   },
   {
@@ -78,6 +85,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1523217582562-09d0def993a6"
     ],
+    "maxGuests": 8,
     "location": { "city": "Lyon", "country": "France", "lat": 45.7640, "lng": 4.8357 }
   },
   {
@@ -88,6 +96,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1505692794403-34d4982b3d42"
     ],
+    "maxGuests": 9,
     "location": { "city": "Lyon", "country": "France", "lat": 45.7766, "lng": 4.8320 }
   },
   {
@@ -98,6 +107,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
     ],
+    "maxGuests": 10,
     "location": { "city": "Biarritz", "country": "France", "lat": 43.4832, "lng": -1.5586 }
   },
 
@@ -109,6 +119,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
     ],
+    "maxGuests": 1,
     "location": { "city": "Hossegor", "country": "France", "lat": 43.6649, "lng": -1.4275 }
   },
   {
@@ -119,6 +130,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
     ],
+    "maxGuests": 2,
     "location": { "city": "Annecy", "country": "France", "lat": 45.8992, "lng": 6.1294 }
   },
   {
@@ -129,6 +141,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
     ],
+    "maxGuests": 3,
     "location": { "city": "Annecy", "country": "France", "lat": 45.8990, "lng": 6.1285 }
   },
   {
@@ -139,6 +152,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"
     ],
+    "maxGuests": 4,
     "location": { "city": "Colmar", "country": "France", "lat": 48.0795, "lng": 7.3585 }
   },
   {
@@ -149,6 +163,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1523217582562-09d0def993a6"
     ],
+    "maxGuests": 5,
     "location": { "city": "Strasbourg", "country": "France", "lat": 48.5734, "lng": 7.7521 }
   },
 
@@ -160,6 +175,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1505691723518-36a5ac3b2a96"
     ],
+    "maxGuests": 6,
     "location": { "city": "Marseille", "country": "France", "lat": 43.2965, "lng": 5.3698 }
   },
   {
@@ -170,6 +186,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
     ],
+    "maxGuests": 7,
     "location": { "city": "Cassis", "country": "France", "lat": 43.2140, "lng": 5.5396 }
   },
   {
@@ -180,6 +197,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
     ],
+    "maxGuests": 8,
     "location": { "city": "Toulouse", "country": "France", "lat": 43.6047, "lng": 1.4442 }
   },
   {
@@ -190,6 +208,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"
     ],
+    "maxGuests": 9,
     "location": { "city": "Albi", "country": "France", "lat": 43.9278, "lng": 2.1480 }
   },
   {
@@ -200,8 +219,10 @@
     "photos": [
       "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
     ],
+    "maxGuests": 10,
     "location": { "city": "Nantes", "country": "France", "lat": 47.2184, "lng": -1.5536 }
   },
+
   {
     "id": "21",
     "name": "Penthouse avec rooftop",
@@ -210,6 +231,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
     ],
+    "maxGuests": 1,
     "location": { "city": "Barcelone", "country": "Espagne", "lat": 41.3851, "lng": 2.1734 }
   },
   {
@@ -220,6 +242,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
     ],
+    "maxGuests": 2,
     "location": { "city": "Barcelone", "country": "Espagne", "lat": 41.3840, "lng": 2.1810 }
   },
   {
@@ -230,6 +253,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1523217582562-09d0def993a6"
     ],
+    "maxGuests": 3,
     "location": { "city": "Rome", "country": "Italie", "lat": 41.8897, "lng": 12.4709 }
   },
   {
@@ -240,6 +264,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
     ],
+    "maxGuests": 4,
     "location": { "city": "Rome", "country": "Italie", "lat": 41.8902, "lng": 12.4922 }
   },
   {
@@ -250,6 +275,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1505691723518-36a5ac3b2a96"
     ],
+    "maxGuests": 5,
     "location": { "city": "Berlin", "country": "Allemagne", "lat": 52.5200, "lng": 13.4050 }
   },
 
@@ -261,6 +287,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
     ],
+    "maxGuests": 6,
     "location": { "city": "Amsterdam", "country": "Pays-Bas", "lat": 52.3676, "lng": 4.9041 }
   },
   {
@@ -271,6 +298,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"
     ],
+    "maxGuests": 7,
     "location": { "city": "Amsterdam", "country": "Pays-Bas", "lat": 52.3702, "lng": 4.8952 }
   },
   {
@@ -281,6 +309,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
     ],
+    "maxGuests": 8,
     "location": { "city": "Lisbonne", "country": "Portugal", "lat": 38.7223, "lng": -9.1393 }
   },
   {
@@ -291,6 +320,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
     ],
+    "maxGuests": 9,
     "location": { "city": "Lisbonne", "country": "Portugal", "lat": 38.7139, "lng": -9.1313 }
   },
   {
@@ -301,6 +331,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1523217582562-09d0def993a6"
     ],
+    "maxGuests": 10,
     "location": { "city": "Vienne", "country": "Autriche", "lat": 48.2082, "lng": 16.3738 }
   },
   {
@@ -311,6 +342,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
     ],
+    "maxGuests": 1,
     "location": { "city": "Marrakech", "country": "Maroc", "lat": 31.6295, "lng": -7.9811 }
   },
   {
@@ -321,6 +353,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
     ],
+    "maxGuests": 2,
     "location": { "city": "Le Caire", "country": "Égypte", "lat": 30.0444, "lng": 31.2357 }
   },
   {
@@ -331,6 +364,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
     ],
+    "maxGuests": 3,
     "location": { "city": "New York", "country": "États-Unis", "lat": 40.7128, "lng": -74.0060 }
   },
   {
@@ -341,6 +375,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
     ],
+    "maxGuests": 4,
     "location": { "city": "New York", "country": "États-Unis", "lat": 40.6782, "lng": -73.9442 }
   },
   {
@@ -351,6 +386,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
     ],
+    "maxGuests": 5,
     "location": { "city": "Toronto", "country": "Canada", "lat": 43.6532, "lng": -79.3832 }
   },
 
@@ -362,6 +398,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1505691723518-36a5ac3b2a96"
     ],
+    "maxGuests": 6,
     "location": { "city": "Bali", "country": "Indonésie", "lat": -8.3405, "lng": 115.0920 }
   },
   {
@@ -372,6 +409,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1523217582562-09d0def993a6"
     ],
+    "maxGuests": 7,
     "location": { "city": "Tokyo", "country": "Japon", "lat": 35.6895, "lng": 139.6917 }
   },
   {
@@ -382,6 +420,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"
     ],
+    "maxGuests": 8,
     "location": { "city": "Kyoto", "country": "Japon", "lat": 35.0116, "lng": 135.7681 }
   },
   {
@@ -392,6 +431,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
     ],
+    "maxGuests": 9,
     "location": { "city": "Rio de Janeiro", "country": "Brésil", "lat": -22.9068, "lng": -43.1729 }
   },
   {
@@ -402,6 +442,7 @@
     "photos": [
       "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
     ],
+    "maxGuests": 10,
     "location": { "city": "Buenos Aires", "country": "Argentine", "lat": -34.6037, "lng": -58.3816 }
   }
 ]
