@@ -1,0 +1,407 @@
+[
+  {
+    "id": "1",
+    "name": "Loft lumineux au cœur de Paris",
+    "description": "Loft moderne à deux pas du Marais.",
+    "pricePerNight": 145,
+    "photos": [
+      "https://images.unsplash.com/photo-1502673530728-f79b4cab31b1",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
+    ],
+    "location": { "city": "Paris", "country": "France", "lat": 48.8566, "lng": 2.3522 }
+  },
+  {
+    "id": "2",
+    "name": "Studio cosy Montmartre",
+    "description": "Studio calme avec vue sur les toits.",
+    "pricePerNight": 110,
+    "photos": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+    ],
+    "location": { "city": "Paris", "country": "France", "lat": 48.8867, "lng": 2.3431 }
+  },
+  {
+    "id": "3",
+    "name": "Appartement design République",
+    "description": "Appartement rénové en plein centre.",
+    "pricePerNight": 125,
+    "photos": [
+      "https://images.unsplash.com/photo-1505691723518-36a5ac3b2a96"
+    ],
+    "location": { "city": "Paris", "country": "France", "lat": 48.8674, "lng": 2.3630 }
+  },
+  {
+    "id": "4",
+    "name": "Maison provençale avec jardin",
+    "description": "Maison traditionnelle entourée de lavande.",
+    "pricePerNight": 180,
+    "photos": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"
+    ],
+    "location": { "city": "Aix-en-Provence", "country": "France", "lat": 43.5297, "lng": 5.4474 }
+  },
+  {
+    "id": "5",
+    "name": "Villa avec piscine et vue mer",
+    "description": "Villa contemporaine avec piscine privée.",
+    "pricePerNight": 320,
+    "photos": [
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
+    ],
+    "location": { "city": "Nice", "country": "France", "lat": 43.7102, "lng": 7.2620 }
+  },
+  {
+    "id": "6",
+    "name": "Appartement vue mer",
+    "description": "Balcon avec vue sur la Méditerranée.",
+    "pricePerNight": 150,
+    "photos": [
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
+    ],
+    "location": { "city": "Nice", "country": "France", "lat": 43.7034, "lng": 7.2663 }
+  },
+  {
+    "id": "7",
+    "name": "Chalet alpin avec cheminée",
+    "description": "Chalet chaleureux face au Mont-Blanc.",
+    "pricePerNight": 210,
+    "photos": [
+      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+    ],
+    "location": { "city": "Chamonix", "country": "France", "lat": 45.9237, "lng": 6.8694 }
+  },
+  {
+    "id": "8",
+    "name": "Studio centre historique",
+    "description": "Idéal pour découvrir la ville à pied.",
+    "pricePerNight": 95,
+    "photos": [
+      "https://images.unsplash.com/photo-1523217582562-09d0def993a6"
+    ],
+    "location": { "city": "Lyon", "country": "France", "lat": 45.7640, "lng": 4.8357 }
+  },
+  {
+    "id": "9",
+    "name": "Appartement Croix-Rousse",
+    "description": "Quartier vivant et authentique.",
+    "pricePerNight": 105,
+    "photos": [
+      "https://images.unsplash.com/photo-1505692794403-34d4982b3d42"
+    ],
+    "location": { "city": "Lyon", "country": "France", "lat": 45.7766, "lng": 4.8320 }
+  },
+  {
+    "id": "10",
+    "name": "Maison bord de mer",
+    "description": "Accès direct à la plage.",
+    "pricePerNight": 170,
+    "photos": [
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
+    ],
+    "location": { "city": "Biarritz", "country": "France", "lat": 43.4832, "lng": -1.5586 }
+  },
+
+  {
+    "id": "11",
+    "name": "Studio surf",
+    "description": "Parfait pour les amateurs de vagues.",
+    "pricePerNight": 90,
+    "photos": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+    ],
+    "location": { "city": "Hossegor", "country": "France", "lat": 43.6649, "lng": -1.4275 }
+  },
+  {
+    "id": "12",
+    "name": "Cabane écologique",
+    "description": "Séjour nature et déconnexion.",
+    "pricePerNight": 130,
+    "photos": [
+      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+    ],
+    "location": { "city": "Annecy", "country": "France", "lat": 45.8992, "lng": 6.1294 }
+  },
+  {
+    "id": "13",
+    "name": "Appartement lac d’Annecy",
+    "description": "Vue imprenable sur le lac.",
+    "pricePerNight": 160,
+    "photos": [
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
+    ],
+    "location": { "city": "Annecy", "country": "France", "lat": 45.8990, "lng": 6.1285 }
+  },
+  {
+    "id": "14",
+    "name": "Maison de village alsacien",
+    "description": "Charme et tradition.",
+    "pricePerNight": 120,
+    "photos": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"
+    ],
+    "location": { "city": "Colmar", "country": "France", "lat": 48.0795, "lng": 7.3585 }
+  },
+  {
+    "id": "15",
+    "name": "Studio centre-ville",
+    "description": "Fonctionnel et bien situé.",
+    "pricePerNight": 85,
+    "photos": [
+      "https://images.unsplash.com/photo-1523217582562-09d0def993a6"
+    ],
+    "location": { "city": "Strasbourg", "country": "France", "lat": 48.5734, "lng": 7.7521 }
+  },
+
+  {
+    "id": "16",
+    "name": "Appartement vieux port",
+    "description": "Vue sur le port et ambiance méditerranéenne.",
+    "pricePerNight": 130,
+    "photos": [
+      "https://images.unsplash.com/photo-1505691723518-36a5ac3b2a96"
+    ],
+    "location": { "city": "Marseille", "country": "France", "lat": 43.2965, "lng": 5.3698 }
+  },
+  {
+    "id": "17",
+    "name": "Maison calanques",
+    "description": "Nature et mer à proximité.",
+    "pricePerNight": 190,
+    "photos": [
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
+    ],
+    "location": { "city": "Cassis", "country": "France", "lat": 43.2140, "lng": 5.5396 }
+  },
+  {
+    "id": "18",
+    "name": "Appartement centre historique",
+    "description": "Idéal pour visiter la ville rose.",
+    "pricePerNight": 100,
+    "photos": [
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
+    ],
+    "location": { "city": "Toulouse", "country": "France", "lat": 43.6047, "lng": 1.4442 }
+  },
+  {
+    "id": "19",
+    "name": "Maison campagne",
+    "description": "Calme et verdure.",
+    "pricePerNight": 110,
+    "photos": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"
+    ],
+    "location": { "city": "Albi", "country": "France", "lat": 43.9278, "lng": 2.1480 }
+  },
+  {
+    "id": "20",
+    "name": "Appartement centre-ville",
+    "description": "Proche des commerces.",
+    "pricePerNight": 95,
+    "photos": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+    ],
+    "location": { "city": "Nantes", "country": "France", "lat": 47.2184, "lng": -1.5536 }
+  },
+  {
+    "id": "21",
+    "name": "Penthouse avec rooftop",
+    "description": "Vue panoramique sur la ville.",
+    "pricePerNight": 290,
+    "photos": [
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
+    ],
+    "location": { "city": "Barcelone", "country": "Espagne", "lat": 41.3851, "lng": 2.1734 }
+  },
+  {
+    "id": "22",
+    "name": "Appartement El Born",
+    "description": "Quartier animé et central.",
+    "pricePerNight": 140,
+    "photos": [
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
+    ],
+    "location": { "city": "Barcelone", "country": "Espagne", "lat": 41.3840, "lng": 2.1810 }
+  },
+  {
+    "id": "23",
+    "name": "Studio Trastevere",
+    "description": "Charme italien authentique.",
+    "pricePerNight": 120,
+    "photos": [
+      "https://images.unsplash.com/photo-1523217582562-09d0def993a6"
+    ],
+    "location": { "city": "Rome", "country": "Italie", "lat": 41.8897, "lng": 12.4709 }
+  },
+  {
+    "id": "24",
+    "name": "Appartement vue Colisée",
+    "description": "Séjour historique.",
+    "pricePerNight": 180,
+    "photos": [
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
+    ],
+    "location": { "city": "Rome", "country": "Italie", "lat": 41.8902, "lng": 12.4922 }
+  },
+  {
+    "id": "25",
+    "name": "Studio centre-ville",
+    "description": "Idéal city trip.",
+    "pricePerNight": 100,
+    "photos": [
+      "https://images.unsplash.com/photo-1505691723518-36a5ac3b2a96"
+    ],
+    "location": { "city": "Berlin", "country": "Allemagne", "lat": 52.5200, "lng": 13.4050 }
+  },
+
+  {
+    "id": "26",
+    "name": "Appartement moderne",
+    "description": "Design épuré.",
+    "pricePerNight": 135,
+    "photos": [
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
+    ],
+    "location": { "city": "Amsterdam", "country": "Pays-Bas", "lat": 52.3676, "lng": 4.9041 }
+  },
+  {
+    "id": "27",
+    "name": "Maison canal",
+    "description": "Vue typique d’Amsterdam.",
+    "pricePerNight": 165,
+    "photos": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"
+    ],
+    "location": { "city": "Amsterdam", "country": "Pays-Bas", "lat": 52.3702, "lng": 4.8952 }
+  },
+  {
+    "id": "28",
+    "name": "Studio central",
+    "description": "Parfait pour explorer la ville.",
+    "pricePerNight": 90,
+    "photos": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+    ],
+    "location": { "city": "Lisbonne", "country": "Portugal", "lat": 38.7223, "lng": -9.1393 }
+  },
+  {
+    "id": "29",
+    "name": "Appartement Alfama",
+    "description": "Quartier historique.",
+    "pricePerNight": 115,
+    "photos": [
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
+    ],
+    "location": { "city": "Lisbonne", "country": "Portugal", "lat": 38.7139, "lng": -9.1313 }
+  },
+  {
+    "id": "30",
+    "name": "Appartement centre",
+    "description": "Proche des musées.",
+    "pricePerNight": 125,
+    "photos": [
+      "https://images.unsplash.com/photo-1523217582562-09d0def993a6"
+    ],
+    "location": { "city": "Vienne", "country": "Autriche", "lat": 48.2082, "lng": 16.3738 }
+  },
+  {
+    "id": "31",
+    "name": "Riad avec piscine",
+    "description": "Authentique et paisible.",
+    "pricePerNight": 160,
+    "photos": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+    ],
+    "location": { "city": "Marrakech", "country": "Maroc", "lat": 31.6295, "lng": -7.9811 }
+  },
+  {
+    "id": "32",
+    "name": "Appartement vue Nil",
+    "description": "Vue exceptionnelle.",
+    "pricePerNight": 140,
+    "photos": [
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
+    ],
+    "location": { "city": "Le Caire", "country": "Égypte", "lat": 30.0444, "lng": 31.2357 }
+  },
+  {
+    "id": "33",
+    "name": "Studio Manhattan",
+    "description": "Idéal business trip.",
+    "pricePerNight": 260,
+    "photos": [
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
+    ],
+    "location": { "city": "New York", "country": "États-Unis", "lat": 40.7128, "lng": -74.0060 }
+  },
+  {
+    "id": "34",
+    "name": "Loft Brooklyn",
+    "description": "Style industriel.",
+    "pricePerNight": 220,
+    "photos": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+    ],
+    "location": { "city": "New York", "country": "États-Unis", "lat": 40.6782, "lng": -73.9442 }
+  },
+  {
+    "id": "35",
+    "name": "Appartement moderne",
+    "description": "Vue skyline.",
+    "pricePerNight": 200,
+    "photos": [
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
+    ],
+    "location": { "city": "Toronto", "country": "Canada", "lat": 43.6532, "lng": -79.3832 }
+  },
+
+  {
+    "id": "36",
+    "name": "Villa tropicale",
+    "description": "Piscine et palmiers.",
+    "pricePerNight": 240,
+    "photos": [
+      "https://images.unsplash.com/photo-1505691723518-36a5ac3b2a96"
+    ],
+    "location": { "city": "Bali", "country": "Indonésie", "lat": -8.3405, "lng": 115.0920 }
+  },
+  {
+    "id": "37",
+    "name": "Appartement Shibuya",
+    "description": "Hyper central.",
+    "pricePerNight": 180,
+    "photos": [
+      "https://images.unsplash.com/photo-1523217582562-09d0def993a6"
+    ],
+    "location": { "city": "Tokyo", "country": "Japon", "lat": 35.6895, "lng": 139.6917 }
+  },
+  {
+    "id": "38",
+    "name": "Maison traditionnelle",
+    "description": "Expérience locale.",
+    "pricePerNight": 150,
+    "photos": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"
+    ],
+    "location": { "city": "Kyoto", "country": "Japon", "lat": 35.0116, "lng": 135.7681 }
+  },
+  {
+    "id": "39",
+    "name": "Appartement vue océan",
+    "description": "Face à la plage.",
+    "pricePerNight": 170,
+    "photos": [
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
+    ],
+    "location": { "city": "Rio de Janeiro", "country": "Brésil", "lat": -22.9068, "lng": -43.1729 }
+  },
+  {
+    "id": "40",
+    "name": "Loft centre-ville",
+    "description": "Moderne et spacieux.",
+    "pricePerNight": 155,
+    "photos": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+    ],
+    "location": { "city": "Buenos Aires", "country": "Argentine", "lat": -34.6037, "lng": -58.3816 }
+  }
+]
