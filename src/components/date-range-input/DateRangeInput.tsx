@@ -38,8 +38,7 @@ export default function DateRangeInput({ onChange }: Props) {
 
   return (
     <div ref={ref} className="date-range-wrapper">
-      <button onClick={() => open ? setOpen(false) : initCalendarPopUp()} className="border rounded-lg px-4 py-2 bg-white shadow hover:shadow-md transition"
-      >
+      <button onClick={() => open ? setOpen(false) : initCalendarPopUp()} type="button" className="border rounded-lg px-4 py-2 bg-white shadow hover:shadow-md transition">
         {range?.from
           ? `${formatDate(range.from)} → ${
               range.to ? formatDate(range.to) : "?"

@@ -5,10 +5,10 @@ import "./SearchBar.css";
 
 function SearchBar() {
 
-  const destinationInputLabel = "destinationInput";
-  const numberOfGuestsInputLabel = "numberOfGuestsInput";
-  const dateFromInputLabel = "dateFrom";
-  const dateToInputLabel = "dateTo";
+  const destinationInputLabel = "destination-input";
+  const numberOfGuestsInputLabel = "number-of-guests-input";
+  const dateFromInputLabel = "date-from-input";
+  const dateToInputLabel = "date-to-input";
   const [range, setRange] = useState<DateRange | undefined>();
   
   async function submitSearch(searchParameters: FormData) {
@@ -22,12 +22,24 @@ function SearchBar() {
 
   return (
     <form action={submitSearch}>
-      <input type="text" name={destinationInputLabel} />
-      <DateRangeInput onChange={setRange} />
-      <input type="hidden" name={dateFromInputLabel} value={range?.from?.toISOString() || ""} />
-      <input type="hidden" name={dateToInputLabel} value={range?.to?.toISOString() || ""} />
-      <input type="number" name={numberOfGuestsInputLabel} min="1" defaultValue="1" />
-      <button type="submit">Chercher 🔎</button>
+      <div className="field-search-bar">
+        <label>Destination</label>
+        <input type="text" name={destinationInputLabel} />
+      </div>
+      <div className="field-search-bar">
+        <label>Dates</label>
+        <DateRangeInput onChange={setRange} />
+        <input type="hidden" name={dateFromInputLabel} value={range?.from?.toISOString() || ""} />
+        <input type="hidden" name={dateToInputLabel} value={range?.to?.toISOString() || ""} />
+      </div>
+      <div className="field-search-bar">
+        <label>Voyageurs</label>
+        <input type="number" name={numberOfGuestsInputLabel} min="1" defaultValue="1" />
+      </div>
+      <div className="field-search-bar">
+        <label>&nbsp;</label>
+        <button type="submit">Chercher 🔎</button>
+      </div>
     </form>
   );
 }

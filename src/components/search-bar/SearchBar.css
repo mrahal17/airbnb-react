@@ -6,3 +6,15 @@ form {
   width: fit-content;
   margin: 0 auto;       
 }
+
+.field-search-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+input[type="number"] {
+  width: 70px;
+}
+
+
