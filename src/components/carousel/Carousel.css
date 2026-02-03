@@ -20,7 +20,6 @@
 
 #carousel-previous, #carousel-next {
   position: absolute;
-  height: 30px;
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
