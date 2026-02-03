@@ -23,9 +23,9 @@ export function Carousel() {
   
   return (
     <div className="carousel-container">
-      <button id="carousel-previous" onClick={clickPreviousImage}></button>
+      <button id="carousel-previous" onClick={clickPreviousImage}>◀</button>
       <img src={imageUrls[indexImage]} alt="Carousel image"></img>
-      <button id="carousel-next" onClick={clickNextImage}></button>
+      <button id="carousel-next" onClick={clickNextImage}>▶</button>
     </div>
   );
 }

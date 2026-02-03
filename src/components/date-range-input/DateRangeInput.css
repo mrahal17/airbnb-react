@@ -1,0 +1,18 @@
+.date-range-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.calendar-pop-up {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content; 
+  max-width: none;
+  background: white;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+  z-index: 9999;
+}

@@ -1,0 +1,8 @@
+form {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 43px;
+  width: fit-content;
+  margin: 0 auto;       
+}
