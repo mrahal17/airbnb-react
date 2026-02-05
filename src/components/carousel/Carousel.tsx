@@ -1,33 +1,18 @@
-import { useState, useEffect, useRef } from "react";
-import { rentalsApi } from "../../services/rentals.service";
+import { useState } from "react";
 import { type Rental } from "../../types/rental";
 import "./Carousel.css";
 
-export function Carousel() {
+export function Carousel({ rentals }: { rentals: Rental[] }) {
 
-  const lengthCarousel = useRef(0);
-  const [rentals, setRentals] = useState<Rental[]>([]);
+  const lengthCarousel = rentals.length;
   const [indexImage, setIndexImage] = useState(0);
 
-  useEffect(() => {
-    async function fetchRentals() {
-      try {
-        const response = await rentalsApi.getAllRentals();
-        setRentals(response.data);
-        lengthCarousel.current = response.data.length;
-      } catch (err) {
-        console.error(err);
-      }
-    }
-    fetchRentals();
-  }, []);
-
   function clickPreviousImage() {
-    setIndexImage(index => (index - 1) % lengthCarousel.current);
+    setIndexImage(index => (index - 1) % lengthCarousel);
   }
 
   function clickNextImage() {
-    setIndexImage(index => (index + 1) % lengthCarousel.current);
+    setIndexImage(index => (index + 1) % lengthCarousel);
     console.log(indexImage);
   }
   
