@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { type Rental } from "../../types/rental";
 import "./Carousel.css";
 
@@ -7,8 +7,16 @@ export function Carousel({ rentals }: { rentals: Rental[] }) {
   const lengthCarousel = rentals.length;
   const [indexImage, setIndexImage] = useState(0);
 
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      setIndexImage((indexImage + 1) % lengthCarousel);
+    }, 3000);
+
+    return () => clearTimeout(timeoutId);
+  }, [lengthCarousel, indexImage]);
+
   function clickPreviousImage() {
-    setIndexImage((indexImage + 39) % lengthCarousel);
+    setIndexImage((indexImage + lengthCarousel - 1) % lengthCarousel);
   }
 
   function clickNextImage() {
