@@ -1,15 +1,11 @@
-import Header from './components/Header';
 import './App.css'
-import { Carousel } from './components/carousel/Carousel';
-import SearchBar from './components/search-bar/SearchBar';
+import HomePage from './components/home-page/HomePage';
 
 function App() {
 
   return (
     <>
-      <Header />
-      <Carousel />
-      <SearchBar />
+      <HomePage />
     </>
   )
 }

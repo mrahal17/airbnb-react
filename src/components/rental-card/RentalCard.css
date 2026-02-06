@@ -1,0 +1,42 @@
+.card {
+  position: relative;
+  width: 200px;
+  height: 190px;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 0 auto;
+  display: block;
+}
+
+.info {
+  font-size: 13px;
+  font-weight: 300;
+  color: #222;
+  margin: 0;
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+
+.info:hover {
+  cursor: pointer;
+}
+
+.info.name {
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 18px;
+}
+
+img:hover {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  transform: scale(1.02);
+}

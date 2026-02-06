@@ -1,7 +1,7 @@
 function Header() {
   return (
     <div>
-      <h1 style={{ marginTop: "0" }}>airbnbis</h1>
+      <h1 style={{ marginTop: "15px" }}>airbnbis</h1>
     </div>
   )
 }
