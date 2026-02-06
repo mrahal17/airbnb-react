@@ -1,9 +1,11 @@
-import Header from '../header/Header'
 import Carousel from '../carousel/Carousel';
+import Header from '../header/Header'
+import RentalCard from '../rental-card/RentalCard';
 import SearchBar from '../search-bar/SearchBar';
 import { rentalsApi } from '../../services/rentals.service';
 import { useState, useEffect } from 'react';
 import type { Rental } from '../../types/rental';
+import './HomePage.css';
 
 function HomePage() {
 
@@ -26,6 +28,13 @@ function HomePage() {
       <Header />
       <Carousel rentals={rentals}/>
       <SearchBar />
+      <div className="rentals-grid">
+        {
+          rentals.map(currentRental => 
+            <RentalCard rental={currentRental} />
+          )
+        }
+      </div>
     </>
   )
 }

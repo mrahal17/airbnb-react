@@ -8,12 +8,11 @@ export function Carousel({ rentals }: { rentals: Rental[] }) {
   const [indexImage, setIndexImage] = useState(0);
 
   function clickPreviousImage() {
-    setIndexImage(index => (index - 1) % lengthCarousel);
+    setIndexImage((indexImage + 39) % lengthCarousel);
   }
 
   function clickNextImage() {
-    setIndexImage(index => (index + 1) % lengthCarousel);
-    console.log(indexImage);
+    setIndexImage((indexImage + 1) % lengthCarousel);
   }
   
   return (
